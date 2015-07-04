@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Being able to view the diff between two version of the same file helps to
+    quickly identify changes that has been done to the file. From there I am 
+    able to quickly go through these changes to see where the bug was introduced
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to entire history of a file can allow a programmer to 
+    see the various changes done in each iteration. This further allows the
+    ease of reverting back to older versions if necessary
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros, more control and each commits are more meaningful. Cons, might forget
+    to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving multiple files in a single commit allows for logical changes made to
+    make more sense. Any rollback will be much easier where it covers all the 
+    files related. For files like documents and whatnot it makes more sense to 
+    be able to commit files individually.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows me to see the chronology of changes that happens for a file.
+    git diff will allow me to compare and identify what are the exact changes
+    that was done; be it insertion or deletion.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By using version control, making changes that breaks something is more 
+    forgivable. Any commit that breaks something can be track and reverted
+    back.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I wish to try and use Git for my upcoming project using Laravel 5
