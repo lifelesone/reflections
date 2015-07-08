@@ -12,14 +12,30 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	By using git add, I am able to add into the staging area any files that have
+	any changes based on a logical change. From there I am able to commit file
+	chanes based on a logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branch is useful for keeping track of several experimental solutions at the 
+	same time. This is helpful when I need to test out these solutions but at 
+	the same time wish to show a stable demo to a client that excludes the 
+	experimental solutions.
+
 How do the diagrams help you visualize the branch structure?
+	
+	The diagram shows a graphical visualization of where and when each branches
+	were created and committed.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	Merging two branches will results in a single end point. Additionally, commits
+	from both branches will be available in the merged branch. Hence the way it is 
+	represented in the diagram.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
